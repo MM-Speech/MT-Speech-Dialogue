@@ -1,6 +1,6 @@
 # MT-Speech-Dialogue
 
-> A curated paper list for **Multi-Turn Speech Dialogue**, organized from the supplied `readme.docx`. Links use arXiv abstract pages whenever an arXiv version is available; otherwise, they point to the paper's official proceedings page.
+> A curated paper list for **Multi-Turn Speech Dialogue**.
 
 ## Survey
 
