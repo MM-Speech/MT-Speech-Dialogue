@@ -28,7 +28,7 @@
 6. **"Toward Conversational Hungarian Speech Recognition: Introducing the BEA-Large and BEA-Dialogue Datasets"**. *Mate Gedeon et al* arXiv 2025. [[Paper](https://arxiv.org/abs/2511.13529)]
 7. **"Data-Centric Improvements for Enhancing Multi-Modal Understanding in Spoken Conversation Modeling (ASK-QA)"**. *Maximillian Chen et al* ACL Findings 2025. [[Paper](https://arxiv.org/abs/2412.15995)]
 8. **"InteractSpeech: A Speech Dialogue Interaction Corpus for Spoken Dialogue Model"**. *Yifu Chen et al* EMNLP Findings 2025. [[Paper](https://aclanthology.org/2025.findings-emnlp.424/)]
-
+9. **"The ICASSP 2026 HumDial Challenge: Benchmarking Human-like Spoken Dialogue Systems in the LLM Era"**. *Zhixian Zhao et al* ICASSP / arXiv 2026. [[Paper](https://arxiv.org/abs/2601.05564)]
 ## Evaluation & Benchmarks
 
 1. **"SD-Eval: A Benchmark Dataset for Spoken Dialogue Understanding Beyond Words"**. *Junyi Ao et al* NeurIPS 2024 (Datasets & Benchmarks). [[Paper](https://arxiv.org/abs/2406.13340)]
