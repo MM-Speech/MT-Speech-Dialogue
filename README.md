@@ -2,7 +2,6 @@
 
 > A curated paper list for **Multi-Turn Speech Dialogue**.
 >
-> Scope: papers directly addressing multi-turn, end-to-end, or full-duplex speech interaction. Broad domain surveys are listed separately under **General Surveys**.
 
 ## Survey
 
