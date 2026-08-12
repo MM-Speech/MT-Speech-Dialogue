@@ -1,7 +1,6 @@
 # MT-Speech-Dialogue
 
 > A curated paper list for **Multi-Turn Speech Dialogue**.
->
 
 ## Survey
 
