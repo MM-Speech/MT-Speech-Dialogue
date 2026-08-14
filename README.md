@@ -226,8 +226,6 @@
 
 ## Survey Coverage Comparison
 
-**Classification note.** Patlan et al. (2023) is classified as a core survey because it explicitly reviews spoken dialogue systems and multi-turn human-agent interaction. General surveys cover adjacent areas with broader scopes.
-
 **Table 1. Coverage comparison of surveys related to Multi-Turn Speech Dialogue.**
 
 General Surveys are listed first, followed by core surveys. ✓ = systematic coverage; △ = partial or supporting coverage; - = not a substantive focus.
