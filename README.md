@@ -223,3 +223,32 @@
 5. **"Effects of Dialogue Corpora Properties on Fine-Tuning a Moshi-Based Spoken Dialogue Model"**. *Yuto Abe et al.* IWSDS 2026. [[Paper](https://aclanthology.org/2026.iwsds-1.10/)]
 6. **"Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models"**. *Yifu Chen et al.* ACL 2026. [[Paper](https://aclanthology.org/2026.acl-long.6/)]
 7. **"Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models"**. *Kyudan Jung et al.* ACL Industry Track 2026. [[Paper](https://aclanthology.org/2026.acl-industry.18/)]
+
+## Survey Coverage Comparison
+
+**Classification note.** Patlan et al. (2023) is classified as a core survey because it explicitly reviews spoken dialogue systems and multi-turn human-agent interaction. General surveys cover adjacent areas with broader scopes.
+
+**Table 1. Coverage comparison of surveys related to Multi-Turn Speech Dialogue.**
+
+General Surveys are listed first, followed by core surveys. ✓ = systematic coverage; △ = partial or supporting coverage; - = not a substantive focus.
+
+| Survey | Multi-turn Speech | Turn-taking & Interruption | Full-duplex | Datasets | Evaluation/Benchmark | Models | Training Methods | Interaction Taxonomy |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [Serban et al. (2018)](https://aclanthology.org/2018.dnd-9.7/) | △ | - | - | ✓ | ✓ | △ | △ | ✓ |
+| [Gao et al. (2019)](https://arxiv.org/abs/1809.08267) | △ | - | - | △ | △ | ✓ | ✓ | ✓ |
+| [Balaraman et al. (2021)](https://aclanthology.org/2021.sigdial-1.25/) | △ | - | - | ✓ | ✓ | ✓ | △ | ✓ |
+| [Gu et al. (2022)](https://www.ijcai.org/proceedings/2022/768) | △ | △ | - | △ | △ | ✓ | △ | ✓ |
+| [Latif et al. (2023)](https://arxiv.org/abs/2303.11607) | △ | - | - | △ | △ | ✓ | △ | ✓ |
+| [Winata et al. (2024)](https://arxiv.org/abs/2409.11564) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ |
+| [Peng et al. (2024)](https://arxiv.org/abs/2410.18908) | △ | - | - | △ | ✓ | ✓ | ✓ | ✓ |
+| [Arora et al. (2025)](https://arxiv.org/abs/2504.08528) | △ | △ | △ | △ | ✓ | ✓ | ✓ | ✓ |
+| [Cui et al. (2025)](https://arxiv.org/abs/2410.03751) | △ | - | △ | △ | ✓ | ✓ | ✓ | ✓ |
+| [Yu et al. (2025)](https://arxiv.org/abs/2503.14504) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ |
+| [Skantze (2021)](https://doi.org/10.1016/j.csl.2020.101178) | ✓ | ✓ | △ | △ | △ | ✓ | - | ✓ |
+| [Patlan et al. (2023)](https://arxiv.org/abs/2111.01414) | ✓ | △ | - | △ | ✓ | ✓ | ✓ | ✓ |
+| [Ji et al. / WavChat (2024)](https://arxiv.org/abs/2411.13577) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Chen and Yu (2025)](https://arxiv.org/abs/2509.14515) | ✓ | ✓ | ✓ | △ | ✓ | ✓ | △ | ✓ |
+| [Castillo-López et al. (2025)](https://aclanthology.org/2025.iwsds-1.27/) | ✓ | ✓ | - | ✓ | △ | ✓ | △ | ✓ |
+| [Patamia et al. (2025)](https://doi.org/10.3390/technologies13120591) | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ | ✓ |
+| [Lu et al. (2026)](https://arxiv.org/abs/2606.19453) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | ✓ |
+| Current Collection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
