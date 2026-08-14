@@ -19,11 +19,12 @@
 3. **"Recent Neural Methods on Dialogue State Tracking for Task-Oriented Dialogue Systems: A Survey"**. *Vevake Balaraman et al.* SIGDIAL 2021. [[Paper](https://aclanthology.org/2021.sigdial-1.25/)]
 4. **"Who Says What to Whom: A Survey of Multi-Party Conversations"**. *Jia-Chen Gu et al.* IJCAI 2022. [[Paper](https://www.ijcai.org/proceedings/2022/768)]
 5. **"Transformers in Speech Processing: A Survey"**. *Siddique Latif et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2303.11607)]
-6. **"Preference Tuning with Human Feedback on Language, Speech, and Vision Tasks: A Survey"**. *Genta Indra Winata et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2409.11564)]
-7. **"A Survey on Speech Large Language Models"**. *Jing Peng et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.18908)]
-8. **"On The Landscape of Spoken Language Models: A Comprehensive Survey"**. *Siddhant Arora et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.08528)]
-9. **"Recent Advances in Speech Language Models: A Survey"**. *Wenqian Cui et al.* ACL 2025. [[Paper](https://arxiv.org/abs/2410.03751)]
-10. **"Aligning Multimodal LLM with Human Preference: A Survey"**. *Tao Yu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.14504)]
+6. **"A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems"**. *Zihao Yi et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2402.18013)]
+7. **"Preference Tuning with Human Feedback on Language, Speech, and Vision Tasks: A Survey"**. *Genta Indra Winata et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2409.11564)]
+8. **"A Survey on Speech Large Language Models"**. *Jing Peng et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.18908)]
+9. **"On The Landscape of Spoken Language Models: A Comprehensive Survey"**. *Siddhant Arora et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.08528)]
+10. **"Recent Advances in Speech Language Models: A Survey"**. *Wenqian Cui et al.* ACL 2025. [[Paper](https://arxiv.org/abs/2410.03751)]
+11. **"Aligning Multimodal LLM with Human Preference: A Survey"**. *Tao Yu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.14504)]
 
 ## Datasets
 
@@ -237,6 +238,7 @@ General Surveys are listed first, followed by core surveys. ✓ = systematic cov
 | [Balaraman et al. (2021)](https://aclanthology.org/2021.sigdial-1.25/) | △ | - | - | ✓ | ✓ | ✓ | △ | ✓ |
 | [Gu et al. (2022)](https://www.ijcai.org/proceedings/2022/768) | △ | △ | - | △ | △ | ✓ | △ | ✓ |
 | [Latif et al. (2023)](https://arxiv.org/abs/2303.11607) | △ | - | - | △ | △ | ✓ | △ | ✓ |
+| [Yi et al. (2024)](https://arxiv.org/abs/2402.18013) | △ | - | - | ✓ | ✓ | ✓ | ✓ | △ |
 | [Winata et al. (2024)](https://arxiv.org/abs/2409.11564) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ |
 | [Peng et al. (2024)](https://arxiv.org/abs/2410.18908) | △ | - | - | △ | ✓ | ✓ | ✓ | ✓ |
 | [Arora et al. (2025)](https://arxiv.org/abs/2504.08528) | △ | △ | △ | △ | ✓ | ✓ | ✓ | ✓ |
@@ -250,3 +252,4 @@ General Surveys are listed first, followed by core surveys. ✓ = systematic cov
 | [Patamia et al. (2025)](https://doi.org/10.3390/technologies13120591) | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ | ✓ |
 | [Lu et al. (2026)](https://arxiv.org/abs/2606.19453) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | ✓ |
 | Current Collection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+
