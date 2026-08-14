@@ -252,4 +252,3 @@ General Surveys are listed first, followed by core surveys. ✓ = systematic cov
 | [Patamia et al. (2025)](https://doi.org/10.3390/technologies13120591) | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ | ✓ |
 | [Lu et al. (2026)](https://arxiv.org/abs/2606.19453) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | ✓ |
 | Current Collection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-
