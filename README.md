@@ -37,9 +37,11 @@
 14. **"InteractSpeech: A Speech Dialogue Interaction Corpus for Spoken Dialogue Model"**. *Yifu Chen et al.* EMNLP Findings 2025. [[Paper](https://aclanthology.org/2025.findings-emnlp.424/)]
 15. **"Behavior-SD: Behaviorally Aware Spoken Dialogue Generation with Large Language Models"**. *Sehun Lee et al.* NAACL 2025. [[Paper](https://aclanthology.org/2025.naacl-long.484/)]
 16. **"RealTalk-CN: A Realistic Chinese Speech-Text Dialogue Benchmark With Cross-Modal Interaction Analysis"**. *Enzhi Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.10015)]
-17. **"Exploring Emotional Nuances in Spoken Dialogue: Dataset Construction and Prediction of Emotional Dialogue Breakdown"**. *Hyuga Nakaguro et al.* IWSDS 2026. [[Paper](https://aclanthology.org/2026.iwsds-1.9/)]
-18. **"DuplexChat: Constructing Speaker-Separated Full-Duplex Dialogue Speech at Scale for Spoken Dialogue Language Modeling"**. *Wataru Nakata et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2607.04941)]
-19. **"Dial HEALTHDIAL for Advice: A Multilingual and Multi-Parallel Spoken Dialogue Dataset for Knowledge-Grounded Information Seeking"**. *Songbo Hu et al.* ACL Findings 2026. [[Paper](https://aclanthology.org/2026.findings-acl.1275/)]
+17. **"DialogueAgents: A Hybrid Agent-Based Speech Synthesis Framework for Multi-Party Dialogue"**. *Zheyuan Zhang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.14482)]
+18. **"Open-Source Full-Duplex Conversational Datasets for Natural and Interactive Speech Synthesis"**. *Rui Liu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.04093)]
+19. **"Exploring Emotional Nuances in Spoken Dialogue: Dataset Construction and Prediction of Emotional Dialogue Breakdown"**. *Hyuga Nakaguro et al.* IWSDS 2026. [[Paper](https://aclanthology.org/2026.iwsds-1.9/)]
+20. **"DuplexChat: Constructing Speaker-Separated Full-Duplex Dialogue Speech at Scale for Spoken Dialogue Language Modeling"**. *Wataru Nakata et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2607.04941)]
+21. **"Dial HEALTHDIAL for Advice: A Multilingual and Multi-Parallel Spoken Dialogue Dataset for Knowledge-Grounded Information Seeking"**. *Songbo Hu et al.* ACL Findings 2026. [[Paper](https://aclanthology.org/2026.findings-acl.1275/)]
 
 ## Evaluation & Benchmarks
 
@@ -97,28 +99,29 @@
 
 ### Interaction Mode: Turn-taking
 
-1. **"SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities"**. *Dong Zhang et al.* EMNLP Findings 2023. [[Paper](https://arxiv.org/abs/2305.11000)]
-2. **"Generative Spoken Dialogue Language Modeling"**. *Tu Anh Nguyen et al.* TACL 2023. [[Paper](https://aclanthology.org/2023.tacl-1.15/)]
-3. **"Qwen2-Audio Technical Report"**. *Yunfei Chu et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2407.10759)]
-4. **"Style-Talker: Finetuning Audio Language Model and Style-Based Text-to-Speech Model for Fast Spoken Dialogue Generation"**. *Yinghao Aaron Li et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2408.11849)]
-5. **"EMOVA: Empowering Language Models to See, Hear and Speak with Vivid Emotions"**. *Kai Chen et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2409.18042)]
-6. **"Internalizing ASR with Implicit Chain of Thought for Efficient Speech-to-Speech Conversational LLM"**. *Robin Shinghei Yuen et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2409.17353)]
-7. **"Building a Taiwanese Mandarin Spoken Language Model: A First Attempt"**. *Chih-Kai Yang et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2411.07111)]
-8. **"LLaMA-Omni: Seamless Speech Interaction with Large Language Models"**. *Qingkai Fang et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2409.06666)]
-9. **"OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-time Emotional Speech Synthesis"**. *Run Luo et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.04561)]
-10. **"GOAT-SLM: A Spoken Language Model with Paralinguistic and Speaker Characteristic Awareness"**. *Hongjie Chen et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.18119)]
-11. **"OpenS2S: Advancing Fully Open-Source End-to-End Empathetic Large Speech Language Model"**. *Chen Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.05177)]
-12. **"Step-Audio 2 Technical Report"**. *StepFun Team et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.16632)]
-13. **"InteractiveOmni: A Unified Omni-modal Model for Audio-Visual Multi-turn Dialogue"**. *Wenwen Tong et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.13747)]
-14. **"Step-Audio: Unified Understanding and Generation in Intelligent Speech Interaction"**. *Ailin Huang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.11946)]
-15. **"Baichuan-Audio: A Unified Framework for End-to-End Speech Interaction"**. *Tianpeng Li et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.17239)]
-16. **"Kimi-Audio Technical Report"**. *KimiTeam et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.18425)]
-17. **"Qwen3-Omni Technical Report"**. *Jin Xu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.17765)]
-18. **"PACHAT: Persona-Aware Speech Assistant for Multi-party Dialogue"**. *Dongjie Fu et al.* EMNLP 2025. [[Paper](https://aclanthology.org/2025.emnlp-main.1492/)]
-19. **"VITA-Audio: Fast Interleaved Cross-Modal Token Generation for Efficient Large Speech-Language Model"**. *Zuwei Long et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.03739)]
-20. **"AV-Dialog: Spoken Dialogue Models with Audio-Visual Input"**. *Tuochao Chen et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2511.11124)]
-21. **"VoxMind: An End-to-End Agentic Spoken Dialogue System"**. *Tianle Liang et al.* ACL 2026. [[Paper](https://aclanthology.org/2026.acl-long.459/)]
-22. **"ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching"**. *Han Zhu et al.* ACL Findings 2026. [[Paper](https://aclanthology.org/2026.findings-acl.1928/)]
+1. **"Voice Activity Projection: Self-supervised Learning of Turn-taking Events"**. *Erik Ekstedt and Gabriel Skantze* Interspeech 2022. [[Paper](https://doi.org/10.21437/Interspeech.2022-10955)]
+2. **"SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities"**. *Dong Zhang et al.* EMNLP Findings 2023. [[Paper](https://arxiv.org/abs/2305.11000)]
+3. **"Generative Spoken Dialogue Language Modeling"**. *Tu Anh Nguyen et al.* TACL 2023. [[Paper](https://aclanthology.org/2023.tacl-1.15/)]
+4. **"Qwen2-Audio Technical Report"**. *Yunfei Chu et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2407.10759)]
+5. **"Style-Talker: Finetuning Audio Language Model and Style-Based Text-to-Speech Model for Fast Spoken Dialogue Generation"**. *Yinghao Aaron Li et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2408.11849)]
+6. **"EMOVA: Empowering Language Models to See, Hear and Speak with Vivid Emotions"**. *Kai Chen et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2409.18042)]
+7. **"Internalizing ASR with Implicit Chain of Thought for Efficient Speech-to-Speech Conversational LLM"**. *Robin Shinghei Yuen et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2409.17353)]
+8. **"Building a Taiwanese Mandarin Spoken Language Model: A First Attempt"**. *Chih-Kai Yang et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2411.07111)]
+9. **"LLaMA-Omni: Seamless Speech Interaction with Large Language Models"**. *Qingkai Fang et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2409.06666)]
+10. **"OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-time Emotional Speech Synthesis"**. *Run Luo et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.04561)]
+11. **"GOAT-SLM: A Spoken Language Model with Paralinguistic and Speaker Characteristic Awareness"**. *Hongjie Chen et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.18119)]
+12. **"OpenS2S: Advancing Fully Open-Source End-to-End Empathetic Large Speech Language Model"**. *Chen Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.05177)]
+13. **"Step-Audio 2 Technical Report"**. *StepFun Team et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.16632)]
+14. **"InteractiveOmni: A Unified Omni-modal Model for Audio-Visual Multi-turn Dialogue"**. *Wenwen Tong et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.13747)]
+15. **"Step-Audio: Unified Understanding and Generation in Intelligent Speech Interaction"**. *Ailin Huang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.11946)]
+16. **"Baichuan-Audio: A Unified Framework for End-to-End Speech Interaction"**. *Tianpeng Li et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.17239)]
+17. **"Kimi-Audio Technical Report"**. *KimiTeam et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.18425)]
+18. **"Qwen3-Omni Technical Report"**. *Jin Xu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.17765)]
+19. **"PACHAT: Persona-Aware Speech Assistant for Multi-party Dialogue"**. *Dongjie Fu et al.* EMNLP 2025. [[Paper](https://aclanthology.org/2025.emnlp-main.1492/)]
+20. **"VITA-Audio: Fast Interleaved Cross-Modal Token Generation for Efficient Large Speech-Language Model"**. *Zuwei Long et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.03739)]
+21. **"AV-Dialog: Spoken Dialogue Models with Audio-Visual Input"**. *Tuochao Chen et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2511.11124)]
+22. **"VoxMind: An End-to-End Agentic Spoken Dialogue System"**. *Tianle Liang et al.* ACL 2026. [[Paper](https://aclanthology.org/2026.acl-long.459/)]
+23. **"ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching"**. *Han Zhu et al.* ACL Findings 2026. [[Paper](https://aclanthology.org/2026.findings-acl.1928/)]
 
 ### Interaction Mode: Half-duplex / Controlled Barge-in
 
@@ -126,8 +129,9 @@
 2. **"Freeze-Omni: A Smart and Low Latency Speech-to-Speech Dialogue Model with Frozen LLM"**. *Xiong Wang et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2411.00774)]
 3. **"GLM-4-Voice: Towards Intelligent and Human-Like End-to-End Spoken Chatbot"**. *Aohan Zeng et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2412.02612)]
 4. **"Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities"**. *Zhifei Xie et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.11190)]
-5. **"Qwen2.5-Omni Technical Report"**. *Qwen Team et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.20215)]
-6. **"LLaMA-Omni 2: LLM-based Real-time Spoken Chatbot with Autoregressive Streaming Speech Synthesis"**. *Qingkai Fang et al.* ACL 2025. [[Paper](https://arxiv.org/abs/2505.02625)]
+5. **"VITA: Towards Open-Source Interactive Omni Multimodal LLM"**. *Chaoyou Fu et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2408.05211)]
+6. **"Qwen2.5-Omni Technical Report"**. *Qwen Team et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.20215)]
+7. **"LLaMA-Omni 2: LLM-based Real-time Spoken Chatbot with Autoregressive Streaming Speech Synthesis"**. *Qingkai Fang et al.* ACL 2025. [[Paper](https://arxiv.org/abs/2505.02625)]
 
 ### Interaction Mode: Full-duplex
 
