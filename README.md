@@ -227,29 +227,60 @@
 
 ## Survey Coverage Comparison
 
-**Table 1. Coverage comparison of surveys related to Multi-Turn Speech Dialogue.**
+**Table 1. Coverage comparison of surveys related to Multi-Turn Speech Dialogue, including fine-grained organization aligned with this collection.**
 
-General Surveys are listed first, followed by core surveys. ✓ = systematic coverage; △ = partial or supporting coverage; - = not a substantive focus.
+General Surveys are listed first, followed by core surveys. ✓ = systematic coverage; △ = partial or supporting coverage; - = not a substantive focus. Interaction Taxonomy denotes an explicit taxonomy of conversational interaction. Fine-grained Organization assesses whether a survey structures its analysis using the evaluation focuses, model interaction modes, and training interaction modes adopted in this collection.
 
-| Survey | Multi-turn Speech | Turn-taking & Interruption | Full-duplex | Datasets | Evaluation/Benchmark | Models | Training Methods | Interaction Taxonomy |
-| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Serban et al. (2018)](https://aclanthology.org/2018.dnd-9.7/) | △ | - | - | ✓ | ✓ | △ | △ | ✓ |
-| [Gao et al. (2019)](https://arxiv.org/abs/1809.08267) | △ | - | - | △ | △ | ✓ | ✓ | ✓ |
-| [Balaraman et al. (2021)](https://aclanthology.org/2021.sigdial-1.25/) | △ | - | - | ✓ | ✓ | ✓ | △ | ✓ |
-| [Gu et al. (2022)](https://www.ijcai.org/proceedings/2022/768) | △ | △ | - | △ | △ | ✓ | △ | ✓ |
-| [Latif et al. (2023)](https://arxiv.org/abs/2303.11607) | △ | - | - | △ | △ | ✓ | △ | ✓ |
-| [Yi et al. (2024)](https://arxiv.org/abs/2402.18013) | △ | - | - | ✓ | ✓ | ✓ | ✓ | △ |
-| [Winata et al. (2024)](https://arxiv.org/abs/2409.11564) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ |
-| [Peng et al. (2024)](https://arxiv.org/abs/2410.18908) | △ | - | - | △ | ✓ | ✓ | ✓ | ✓ |
-| [Arora et al. (2025)](https://arxiv.org/abs/2504.08528) | △ | △ | △ | △ | ✓ | ✓ | ✓ | ✓ |
-| [Cui et al. (2025)](https://arxiv.org/abs/2410.03751) | △ | - | △ | △ | ✓ | ✓ | ✓ | ✓ |
-| [Yu et al. (2025)](https://arxiv.org/abs/2503.14504) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ |
-| [Skantze (2021)](https://doi.org/10.1016/j.csl.2020.101178) | ✓ | ✓ | △ | △ | △ | ✓ | - | ✓ |
-| [Patlan et al. (2023)](https://arxiv.org/abs/2111.01414) | ✓ | △ | - | △ | ✓ | ✓ | ✓ | ✓ |
-| [Ji et al. / WavChat (2024)](https://arxiv.org/abs/2411.13577) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| [Chen and Yu (2025)](https://arxiv.org/abs/2509.14515) | ✓ | ✓ | ✓ | △ | ✓ | ✓ | △ | ✓ |
-| [Castillo-López et al. (2025)](https://aclanthology.org/2025.iwsds-1.27/) | ✓ | ✓ | - | ✓ | △ | ✓ | △ | ✓ |
-| [Patamia et al. (2025)](https://doi.org/10.3390/technologies13120591) | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ | ✓ |
-| [Lu et al. (2026)](https://arxiv.org/abs/2606.19453) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | ✓ |
-| Current Collection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Survey | Multi-turn Speech | Turn-taking & Interruption | Full-duplex | Datasets | Evaluation / Benchmark | Models | Training Methods | Interaction Taxonomy | Evaluation Focus | Model Interaction Modes | Training Interaction Modes |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [Serban et al. (2018)](https://aclanthology.org/2018.dnd-9.7/) | △ | - | - | ✓ | ✓ | △ | △ | ✓ | - | - | - |
+| [Gao et al. (2019)](https://arxiv.org/abs/1809.08267) | △ | - | - | △ | △ | ✓ | ✓ | ✓ | - | - | - |
+| [Balaraman et al. (2021)](https://aclanthology.org/2021.sigdial-1.25/) | △ | - | - | ✓ | ✓ | ✓ | △ | ✓ | △ | - | - |
+| [Gu et al. (2022)](https://www.ijcai.org/proceedings/2022/768) | △ | △ | - | △ | △ | ✓ | △ | ✓ | △ | △ | - |
+| [Latif et al. (2023)](https://arxiv.org/abs/2303.11607) | △ | - | - | △ | △ | ✓ | △ | ✓ | - | - | - |
+| [Yi et al. (2024)](https://arxiv.org/abs/2402.18013) | △ | - | - | ✓ | ✓ | ✓ | ✓ | △ | △ | - | △ |
+| [Winata et al. (2024)](https://arxiv.org/abs/2409.11564) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ | - | - | △ |
+| [Peng et al. (2024)](https://arxiv.org/abs/2410.18908) | △ | - | - | △ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
+| [Arora et al. (2025)](https://arxiv.org/abs/2504.08528) | △ | △ | △ | △ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
+| [Cui et al. (2025)](https://arxiv.org/abs/2410.03751) | △ | - | △ | △ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
+| [Yu et al. (2025)](https://arxiv.org/abs/2503.14504) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ | - | - | △ |
+| [Skantze (2021)](https://doi.org/10.1016/j.csl.2020.101178) | ✓ | ✓ | △ | △ | △ | ✓ | - | ✓ | ✓ | ✓ | △ |
+| [Patlan et al. (2023)](https://arxiv.org/abs/2111.01414) | ✓ | △ | - | △ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
+| [Ji et al. / WavChat (2024)](https://arxiv.org/abs/2411.13577) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
+| [Chen and Yu (2025)](https://arxiv.org/abs/2509.14515) | ✓ | ✓ | ✓ | △ | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ |
+| [Castillo-López et al. (2025)](https://aclanthology.org/2025.iwsds-1.27/) | ✓ | ✓ | - | ✓ | △ | ✓ | △ | ✓ | ✓ | ✓ | ✓ |
+| [Patamia et al. (2025)](https://doi.org/10.3390/technologies13120591) | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ | ✓ | ✓ | ✓ | ✓ |
+| [Lu et al. (2026)](https://arxiv.org/abs/2606.19453) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ |
+| Current Collection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
+## Development Trajectory: From Spoken Dialogue Models to Voice Agents
+
+How to read the trajectory. Duplex task systems provide engineering context, while dGSLM (March 2022) marks the opening of the generative spoken-dialogue-model track. Work-type tags separate complete models/systems from foundations, add-ons, methods, and benchmarks; the three analytical columns then trace architecture/representation, interaction taxonomy, and agency/evaluation without attributing every stage-level claim to every listed work.
+
+| Phase | Period | Representative works | Architecture / Representation | Interaction Taxonomy | Agency / Evaluation Frontier |
+| --- | :---: | :---: | :---: | :---: | :---: |
+| Engineering precursor | 2021.08 | [System] [Duplex Conversation (Outbound)](https://www.isca-archive.org/interspeech_2021/jin21b_interspeech.html) | Cascaded ASR-dialogue-policy-TTS stack with an explicit interruption and control layer. | Controller-mediated duplex / barge-in; listening and speaking states are externally orchestrated. | Domain-bound task completion; no unified generative spoken-dialogue model. |
+| Generative model-track opening | 2022.03-05 | [Model] [dGSLM](https://arxiv.org/abs/2203.16502); [System] [Duplex Conversation](https://arxiv.org/abs/2205.15060) | Textless dual-channel speech generation and learned conversational timing complement a controller-based duplex system. | Turn-taking plus learned overlap and backchannel timing; duplex becomes an explicit modeling target. | Open-domain spoken generation emerges; instruction following and tool use remain absent. |
+| Speech-language foundations | 2023 | [Model] [SpeechGPT](https://arxiv.org/abs/2305.11000); [Foundation] [AudioPaLM](https://arxiv.org/abs/2306.12925) | Discrete speech units, speech-text alignment, and cross-modal language-model adaptation. | Predominantly turn-based speech input/output; AudioPaLM is supporting speech-language work, not a dialogue-specific system. | Spoken instruction following improves, while real-time synchrony and multi-turn agency remain limited. |
+| Real-time and duplex diversification | 2024.05-11 | [System] [Full-duplex LLM Scheme](https://arxiv.org/abs/2405.19487); [System] [VITA](https://arxiv.org/abs/2408.05211); [System] [Mini-Omni](https://arxiv.org/abs/2408.16725); [Model] [Synchronous LLMs](https://arxiv.org/abs/2409.15594); [Model] [Moshi](https://arxiv.org/abs/2410.00037); [System] [Mini-Omni2](https://arxiv.org/abs/2410.11190); [Model] [SALMONN-omni](https://arxiv.org/abs/2411.18138) | Cascaded real-time schemes diversify into streaming/interleaved generation and synchronous dual-stream speech models. | Controlled interruption expands toward native full-duplex overlap, backchannels, and simultaneous listening/speaking. | Conversation becomes more fluid; external action and persistent planning are not yet central. |
+| Scaled unified voice models | 2025.01-09 | [Model] [MinMo](https://arxiv.org/abs/2501.06282); [System] [Step-Audio](https://arxiv.org/abs/2502.11946); [System] [Baichuan-Audio](https://arxiv.org/abs/2502.17239); [Model] [Qwen2.5-Omni](https://arxiv.org/abs/2503.20215); [Model] [VITA-Audio](https://arxiv.org/abs/2505.03739); [Model] [SALM-Duplex](https://arxiv.org/abs/2505.15670); [Model] [OmniFlatten](https://aclanthology.org/2025.acl-long.709/); [System] [FireRedChat](https://arxiv.org/abs/2509.06502) | Unified omni-modal LLMs, interleaved audio/text tokens, plus end-to-end, cascaded, and semi-cascaded variants. | Low-latency streaming scales alongside increasingly robust full-duplex models such as MinMo and OmniFlatten. | Instruction following and robustness scale up; tool orchestration is still mostly external. |
+| Tool augmentation and agentic evaluation | 2025.10 | [Method] [Stream RAG](https://arxiv.org/abs/2510.02044); [Benchmark] [VoiceAgentBench](https://arxiv.org/abs/2510.07978) | Stream RAG adds predictive streaming tool use; VoiceAgentBench supplies agentic evaluation rather than a model architecture. | Tool calls can begin during incoming speech, while evaluation covers multi-turn and multi-tool spoken workflows. | Tool selection, parameter filling, workflow completion, robustness, and safety become explicit targets. |
+| Full-duplex control and evaluation | 2026.02-04 | [Model] [PersonaPlex](https://arxiv.org/abs/2602.06053); [Add-on] [SoulX-Duplug](https://arxiv.org/abs/2603.14877); [Model] [MiniCPM-o 4.5](https://arxiv.org/abs/2604.27393); [Benchmark] [Full-Duplex-Bench-v3](https://arxiv.org/abs/2604.04847) | Persona conditioning and omni-modal generation are paired with a host-dependent state-control add-on and benchmark evidence. | Dynamic turn state, interruption, overlap, role control, and disfluency-aware evaluation are jointly emphasized. | The focus shifts from fluent duplex behavior toward controllability and reliable tool use under realistic speech. |
+| Reasoning and action integration | 2026.05-07 | [Model] [DuplexSLA](https://arxiv.org/abs/2605.20755); [System] [VoxMind](https://aclanthology.org/2026.acl-long.459/); [Method] [Dual-Reasoner](https://aclanthology.org/2026.findings-acl.199/) | DuplexSLA synchronizes speech/language/action; VoxMind adds Think-before-Speak planning and tool management; Dual-Reasoner targets thinking-while-talking. | The stage spans synchronized speech-action, sequential pre-speech planning, and interleaved reasoning during streaming speech. | Reason-plan-act behavior is integrated with speech; memory, safety, and long-horizon autonomy remain open. |
+
+### Trajectory Synthesis
+
+- Representation: cascaded ASR/TTS -> textless dual-channel units -> speech-native LLMs -> parallel semantic/acoustic streams -> synchronized speech-language-action generation.
+- Interaction: controller-mediated barge-in -> learned turn timing -> streaming interruption -> full-duplex overlap/backchannels -> synchronized or interleaved speech, reasoning, and action.
+- Agency: domain task logic -> generative dialogue -> spoken instruction following -> retrieval/tool use -> reason-plan-act behavior and persona control.
+- Evidence: speech quality and timing -> latency/interruption -> overlap naturalness -> tool correctness and task completion -> memory, safety, and agent reliability.
+
+## Development Roadmap and Capability Curve
+
+The main curve summarizes a qualitative progression from generative spoken-dialogue modeling to integrated spoken agents. Year branches expand representative works from this collection: color denotes the primary interaction or agency path rather than an exhaustive capability set, while dashed tags identify benchmark or training evidence.
+
+![Development Roadmap and Capability Curve](assets/spoken-dialogue-development-roadmap.png)
+
+*Figure 1. Academic roadmap and conceptual capability curve for Multi-Turn Speech Dialogue. The dotted 2021 segment provides engineering context; the solid model-development mainline begins with dGSLM in March 2022. Colors encode each work's primary contribution path, and dashed tags distinguish benchmark or training evidence from complete systems.*
+
+Interpretation. The field evolves along three coupled axes: speech-native representation, increasingly synchronous interaction, and growing task agency. The dense expansion after 2024 reflects diversification rather than a single winning architecture; by 2025-2026, retrieval, tool use, reasoning, action generation, and agent-oriented evaluation begin to close the loop from model-centric conversation to task-capable voice agents.
