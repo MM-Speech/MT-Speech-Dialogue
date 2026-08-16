@@ -279,7 +279,7 @@ How to read the trajectory. Duplex task systems provide engineering context, whi
 
 The main curve summarizes a qualitative progression from generative spoken-dialogue modeling to integrated spoken agents. Year branches expand representative works from this collection: color denotes the primary interaction or agency path rather than an exhaustive capability set, while dashed tags identify benchmark or training evidence.
 
-![Development Roadmap and Capability Curve](assets/spoken-dialogue-development-roadmap.png)
+![Development Roadmap and Capability Curve](assets/spoken_dialogue_development_roadmap.png)
 
 *Figure 1. Academic roadmap and conceptual capability curve for Multi-Turn Speech Dialogue. The dotted 2021 segment provides engineering context; the solid model-development mainline begins with dGSLM in March 2022. Colors encode each work's primary contribution path, and dashed tags distinguish benchmark or training evidence from complete systems.*
 
