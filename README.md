@@ -255,7 +255,7 @@ General Surveys are listed first, followed by core surveys. ✓ = systematic cov
 
 ## Development Trajectory: From Spoken Dialogue Models to Voice Agents
 
-How to read the trajectory. Duplex task systems provide engineering context, while dGSLM (March 2022) marks the opening of the generative spoken-dialogue-model track. Work-type tags separate complete models/systems from foundations, add-ons, methods, and benchmarks; the three analytical columns then trace architecture/representation, interaction taxonomy, and agency/evaluation without attributing every stage-level claim to every listed work.
+Duplex task systems provide engineering context, while dGSLM (March 2022) marks the opening of the generative spoken-dialogue-model track. Work-type tags separate complete models/systems from foundations, add-ons, methods, and benchmarks; the three analytical columns then trace architecture/representation, interaction taxonomy, and agency/evaluation without attributing every stage-level claim to every listed work.
 
 | Phase | Period | Representative works | Architecture / Representation | Interaction Taxonomy | Agency / Evaluation Frontier |
 | --- | :---: | :---: | :---: | :---: | :---: |
