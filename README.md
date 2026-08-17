@@ -284,3 +284,4 @@ The main curve summarizes a qualitative progression from generative spoken-dialo
 *Figure 1. Academic roadmap and conceptual capability curve for Multi-Turn Speech Dialogue. The dotted 2021 segment provides engineering context; the solid model-development mainline begins with dGSLM in March 2022. Colors encode each work's primary contribution path, and dashed tags distinguish benchmark or training evidence from complete systems.*
 
 Interpretation. The field evolves along three coupled axes: speech-native representation, increasingly synchronous interaction, and growing task agency. The dense expansion after 2024 reflects diversification rather than a single architecture; by 2025-2026, retrieval, tool use, reasoning, action generation, and agent-oriented evaluation begin to close the loop from model-centric conversation to task-capable voice agents.
+
