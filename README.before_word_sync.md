@@ -227,59 +227,116 @@
 
 ## Survey Coverage Comparison
 
-**Table 1. Coverage comparison of surveys related to Multi-Turn Speech Dialogue, including fine-grained organization aligned with this collection.**
+**Table 1. Coverage comparison of surveys related to Multi-Turn Speech Dialogue.**
 
-General Surveys are listed first, followed by core surveys. ✓ = systematic coverage; △ = partial or supporting coverage; - = not a substantive focus. Interaction Taxonomy denotes an explicit taxonomy of conversational interaction. Fine-grained Organization assesses whether a survey structures its analysis using the evaluation focuses, model interaction modes, and training interaction modes adopted in this collection.
+General Surveys are listed first, followed by core surveys. ✓ = systematic coverage; △ = partial or supporting coverage; - = not a substantive focus.
 
-| Survey | Multi-turn Speech | Turn-taking & Interruption | Full-duplex | Datasets | Evaluation / Benchmark | Models | Training Methods | Interaction Taxonomy | Evaluation Focus | Model Interaction Modes | Training Interaction Modes |
-| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Serban et al. (2018)](https://aclanthology.org/2018.dnd-9.7/) | △ | - | - | ✓ | ✓ | △ | △ | ✓ | - | - | - |
-| [Gao et al. (2019)](https://arxiv.org/abs/1809.08267) | △ | - | - | △ | △ | ✓ | ✓ | ✓ | - | - | - |
-| [Balaraman et al. (2021)](https://aclanthology.org/2021.sigdial-1.25/) | △ | - | - | ✓ | ✓ | ✓ | △ | ✓ | △ | - | - |
-| [Gu et al. (2022)](https://www.ijcai.org/proceedings/2022/768) | △ | △ | - | △ | △ | ✓ | △ | ✓ | △ | △ | - |
-| [Latif et al. (2023)](https://arxiv.org/abs/2303.11607) | △ | - | - | △ | △ | ✓ | △ | ✓ | - | - | - |
-| [Yi et al. (2024)](https://arxiv.org/abs/2402.18013) | △ | - | - | ✓ | ✓ | ✓ | ✓ | △ | △ | - | △ |
-| [Winata et al. (2024)](https://arxiv.org/abs/2409.11564) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ | - | - | △ |
-| [Peng et al. (2024)](https://arxiv.org/abs/2410.18908) | △ | - | - | △ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
-| [Arora et al. (2025)](https://arxiv.org/abs/2504.08528) | △ | △ | △ | △ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
-| [Cui et al. (2025)](https://arxiv.org/abs/2410.03751) | △ | - | △ | △ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
-| [Yu et al. (2025)](https://arxiv.org/abs/2503.14504) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ | - | - | △ |
-| [Skantze (2021)](https://doi.org/10.1016/j.csl.2020.101178) | ✓ | ✓ | △ | △ | △ | ✓ | - | ✓ | ✓ | ✓ | △ |
-| [Patlan et al. (2023)](https://arxiv.org/abs/2111.01414) | ✓ | △ | - | △ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
-| [Ji et al. / WavChat (2024)](https://arxiv.org/abs/2411.13577) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | △ | △ |
-| [Chen and Yu (2025)](https://arxiv.org/abs/2509.14515) | ✓ | ✓ | ✓ | △ | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ |
-| [Castillo-López et al. (2025)](https://aclanthology.org/2025.iwsds-1.27/) | ✓ | ✓ | - | ✓ | △ | ✓ | △ | ✓ | ✓ | ✓ | ✓ |
-| [Patamia et al. (2025)](https://doi.org/10.3390/technologies13120591) | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ | ✓ | ✓ | ✓ | ✓ |
-| [Lu et al. (2026)](https://arxiv.org/abs/2606.19453) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ |
-| Current Collection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Survey | Multi-turn Speech | Turn-taking & Interruption | Full-duplex | Datasets | Evaluation/Benchmark | Models | Training Methods | Interaction Taxonomy |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [Serban et al. (2018)](https://aclanthology.org/2018.dnd-9.7/) | △ | - | - | ✓ | ✓ | △ | △ | ✓ |
+| [Gao et al. (2019)](https://arxiv.org/abs/1809.08267) | △ | - | - | △ | △ | ✓ | ✓ | ✓ |
+| [Balaraman et al. (2021)](https://aclanthology.org/2021.sigdial-1.25/) | △ | - | - | ✓ | ✓ | ✓ | △ | ✓ |
+| [Gu et al. (2022)](https://www.ijcai.org/proceedings/2022/768) | △ | △ | - | △ | △ | ✓ | △ | ✓ |
+| [Latif et al. (2023)](https://arxiv.org/abs/2303.11607) | △ | - | - | △ | △ | ✓ | △ | ✓ |
+| [Yi et al. (2024)](https://arxiv.org/abs/2402.18013) | △ | - | - | ✓ | ✓ | ✓ | ✓ | △ |
+| [Winata et al. (2024)](https://arxiv.org/abs/2409.11564) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ |
+| [Peng et al. (2024)](https://arxiv.org/abs/2410.18908) | △ | - | - | △ | ✓ | ✓ | ✓ | ✓ |
+| [Arora et al. (2025)](https://arxiv.org/abs/2504.08528) | △ | △ | △ | △ | ✓ | ✓ | ✓ | ✓ |
+| [Cui et al. (2025)](https://arxiv.org/abs/2410.03751) | △ | - | △ | △ | ✓ | ✓ | ✓ | ✓ |
+| [Yu et al. (2025)](https://arxiv.org/abs/2503.14504) | - | - | - | ✓ | ✓ | △ | ✓ | ✓ |
+| [Skantze (2021)](https://doi.org/10.1016/j.csl.2020.101178) | ✓ | ✓ | △ | △ | △ | ✓ | - | ✓ |
+| [Patlan et al. (2023)](https://arxiv.org/abs/2111.01414) | ✓ | △ | - | △ | ✓ | ✓ | ✓ | ✓ |
+| [Ji et al. / WavChat (2024)](https://arxiv.org/abs/2411.13577) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Chen and Yu (2025)](https://arxiv.org/abs/2509.14515) | ✓ | ✓ | ✓ | △ | ✓ | ✓ | △ | ✓ |
+| [Castillo-López et al. (2025)](https://aclanthology.org/2025.iwsds-1.27/) | ✓ | ✓ | - | ✓ | △ | ✓ | △ | ✓ |
+| [Patamia et al. (2025)](https://doi.org/10.3390/technologies13120591) | ✓ | ✓ | △ | ✓ | ✓ | ✓ | △ | ✓ |
+| [Lu et al. (2026)](https://arxiv.org/abs/2606.19453) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | △ | ✓ |
+| Current Collection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-## Development Trajectory: From Spoken Dialogue Models to Voice Agents
+## System and Model Comparison
 
-How to read the trajectory. Duplex task systems provide engineering context, while dGSLM (March 2022) marks the opening of the generative spoken-dialogue-model track. Work-type tags separate complete models/systems from foundations, add-ons, methods, and benchmarks; the three analytical columns then trace architecture/representation, interaction taxonomy, and agency/evaluation without attributing every stage-level claim to every listed work.
+**Table 2. Comparison of all papers listed under Models for Multi-Turn Speech Dialogue.**
 
-| Phase | Period | Representative works | Architecture / Representation | Interaction Taxonomy | Agency / Evaluation Frontier |
-| --- | :---: | :---: | :---: | :---: | :---: |
-| Engineering precursor | 2021.08 | [System] [Duplex Conversation (Outbound)](https://www.isca-archive.org/interspeech_2021/jin21b_interspeech.html) | Cascaded ASR-dialogue-policy-TTS stack with an explicit interruption and control layer. | Controller-mediated duplex / barge-in; listening and speaking states are externally orchestrated. | Domain-bound task completion; no unified generative spoken-dialogue model. |
-| Generative model-track opening | 2022.03-05 | [Model] [dGSLM](https://arxiv.org/abs/2203.16502); [System] [Duplex Conversation](https://arxiv.org/abs/2205.15060) | Textless dual-channel speech generation and learned conversational timing complement a controller-based duplex system. | Turn-taking plus learned overlap and backchannel timing; duplex becomes an explicit modeling target. | Open-domain spoken generation emerges; instruction following and tool use remain absent. |
-| Speech-language foundations | 2023 | [Model] [SpeechGPT](https://arxiv.org/abs/2305.11000); [Foundation] [AudioPaLM](https://arxiv.org/abs/2306.12925) | Discrete speech units, speech-text alignment, and cross-modal language-model adaptation. | Predominantly turn-based speech input/output; AudioPaLM is supporting speech-language work, not a dialogue-specific system. | Spoken instruction following improves, while real-time synchrony and multi-turn agency remain limited. |
-| Real-time and duplex diversification | 2024.05-11 | [System] [Full-duplex LLM Scheme](https://arxiv.org/abs/2405.19487); [System] [VITA](https://arxiv.org/abs/2408.05211); [System] [Mini-Omni](https://arxiv.org/abs/2408.16725); [Model] [Synchronous LLMs](https://arxiv.org/abs/2409.15594); [Model] [Moshi](https://arxiv.org/abs/2410.00037); [System] [Mini-Omni2](https://arxiv.org/abs/2410.11190); [Model] [SALMONN-omni](https://arxiv.org/abs/2411.18138) | Cascaded real-time schemes diversify into streaming/interleaved generation and synchronous dual-stream speech models. | Controlled interruption expands toward native full-duplex overlap, backchannels, and simultaneous listening/speaking. | Conversation becomes more fluid; external action and persistent planning are not yet central. |
-| Scaled unified voice models | 2025.01-09 | [Model] [MinMo](https://arxiv.org/abs/2501.06282); [System] [Step-Audio](https://arxiv.org/abs/2502.11946); [System] [Baichuan-Audio](https://arxiv.org/abs/2502.17239); [Model] [Qwen2.5-Omni](https://arxiv.org/abs/2503.20215); [Model] [VITA-Audio](https://arxiv.org/abs/2505.03739); [Model] [SALM-Duplex](https://arxiv.org/abs/2505.15670); [Model] [OmniFlatten](https://aclanthology.org/2025.acl-long.709/); [System] [FireRedChat](https://arxiv.org/abs/2509.06502) | Unified omni-modal LLMs, interleaved audio/text tokens, plus end-to-end, cascaded, and semi-cascaded variants. | Low-latency streaming scales alongside increasingly robust full-duplex models such as MinMo and OmniFlatten. | Instruction following and robustness scale up; tool orchestration is still mostly external. |
-| Tool augmentation and agentic evaluation | 2025.10 | [Method] [Stream RAG](https://arxiv.org/abs/2510.02044); [Benchmark] [VoiceAgentBench](https://arxiv.org/abs/2510.07978) | Stream RAG adds predictive streaming tool use; VoiceAgentBench supplies agentic evaluation rather than a model architecture. | Tool calls can begin during incoming speech, while evaluation covers multi-turn and multi-tool spoken workflows. | Tool selection, parameter filling, workflow completion, robustness, and safety become explicit targets. |
-| Full-duplex control and evaluation | 2026.02-04 | [Model] [PersonaPlex](https://arxiv.org/abs/2602.06053); [Add-on] [SoulX-Duplug](https://arxiv.org/abs/2603.14877); [Model] [MiniCPM-o 4.5](https://arxiv.org/abs/2604.27393); [Benchmark] [Full-Duplex-Bench-v3](https://arxiv.org/abs/2604.04847) | Persona conditioning and omni-modal generation are paired with a host-dependent state-control add-on and benchmark evidence. | Dynamic turn state, interruption, overlap, role control, and disfluency-aware evaluation are jointly emphasized. | The focus shifts from fluent duplex behavior toward controllability and reliable tool use under realistic speech. |
-| Reasoning and action integration | 2026.05-07 | [Model] [DuplexSLA](https://arxiv.org/abs/2605.20755); [System] [VoxMind](https://aclanthology.org/2026.acl-long.459/); [Method] [Dual-Reasoner](https://aclanthology.org/2026.findings-acl.199/) | DuplexSLA synchronizes speech/language/action; VoxMind adds Think-before-Speak planning and tool management; Dual-Reasoner targets thinking-while-talking. | The stage spans synchronized speech-action, sequential pre-speech planning, and interleaved reasoning during streaming speech. | Reason-plan-act behavior is integrated with speech; memory, safety, and long-horizon autonomy remain open. |
+✓ = explicitly reported support; △ = partial, asymmetric, or controller-mediated support; - = not reported, not applicable, or not a primary capability. Method names link to the papers.
 
-### Trajectory Synthesis
+Abbreviations: ASR, automatic speech recognition; TTS, text-to-speech; SSL, self-supervised learning; LLM, large language model; VAD, voice activity detection. Acoustic / Speech Model reports the principal speech encoder, tokenizer, dialogue backbone, decoder, or controller evaluated by each paper; Release uses `YYYY.MM` and follows the cited archival publication month, or the first arXiv month when the cited work is a preprint.
 
-- Representation: cascaded ASR/TTS -> textless dual-channel units -> speech-native LLMs -> parallel semantic/acoustic streams -> synchronized speech-language-action generation.
-- Interaction: controller-mediated barge-in -> learned turn timing -> streaming interruption -> full-duplex overlap/backchannels -> synchronized or interleaved speech, reasoning, and action.
-- Agency: domain task logic -> generative dialogue -> spoken instruction following -> retrieval/tool use -> reason-plan-act behavior and persona control.
-- Evidence: speech quality and timing -> latency/interruption -> overlap naturalness -> tool correctness and task completion -> memory, safety, and agent reliability.
-
-## Development Roadmap and Capability Curve
-
-The main curve summarizes a qualitative progression from generative spoken-dialogue modeling to integrated spoken agents. Year branches expand representative works from this collection: color denotes the primary interaction or agency path rather than an exhaustive capability set, while dashed tags identify benchmark or training evidence.
-
-![Development Roadmap and Capability Curve](assets/spoken_dialogue_development_roadmap.png)
-
-*Figure 1. Academic roadmap and conceptual capability curve for Multi-Turn Speech Dialogue. The dotted 2021 segment provides engineering context; the solid model-development mainline begins with dGSLM in March 2022. Colors encode each work's primary contribution path, and dashed tags distinguish benchmark or training evidence from complete systems.*
-
+| Method | Scope | Streaming | Barge-in | Concurrent | Backchannel / Overlap | Speech Output | Vision | Cascaded | Semi-casc. | End-to-end | Speech Interface | Acoustic / Speech Model | Release |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Interaction Mode: Turn-taking** |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| [EOT + Intent](https://doi.org/10.1109/ICASSP.2018.8461340) | Component | △ | - | - | - | - | - | - | - | - | Acoustic features | BiLSTM acoustic EOT/intent classifier | 2018.04 |
+| [Neural Online EOT](https://aclanthology.org/W18-5024/) | Component | ✓ | - | - | - | - | - | - | - | - | Acoustic + context | LSTM online EOT predictor (no generator) | 2018.07 |
+| [MTL Turn-taking](https://www.isca-archive.org/interspeech_2018/hara18_interspeech.html) | Component | △ | - | - | ✓ | - | - | - | - | - | Acoustic features | Multitask LSTM turn/BC/filler predictor | 2018.09 |
+| [TRP Turn-taking](https://www.isca-archive.org/interspeech_2019/hara19_interspeech.html) | Component | △ | - | - | - | - | - | - | - | - | Speech features | LSTM TRP predictor (no generator) | 2019.09 |
+| [TurnGPT](https://aclanthology.org/2020.findings-emnlp.268/) | Component | △ | - | - | - | - | - | - | - | - | Text tokens | GPT-2 turn-shift LM (text-only) | 2020.11 |
+| [Turn Completion Projection](https://aclanthology.org/2021.sigdial-1.45/) | Component | ✓ | - | - | - | - | - | - | - | - | Incremental text | Incremental completion predictor (no generator) | 2021.07 |
+| [Timing Generating Networks](https://www.isca-archive.org/interspeech_2021/fujie21_interspeech.html) | Component | △ | - | - | - | - | - | - | - | - | Timing features | LSTM timing-generating network | 2021.08 |
+| [Transition Duration](https://aclanthology.org/2022.sigdial-1.20/) | Component | △ | - | - | - | - | - | - | - | - | Timing features | Transition-duration predictor (no generator) | 2022.09 |
+| [Initiation Point Predictor](https://aclanthology.org/2022.sigdial-1.22/) | Component | △ | - | - | - | - | - | - | - | - | Speech + context | Neural initiation-point predictor (no generator) | 2022.09 |
+| [VAP](https://doi.org/10.21437/Interspeech.2022-10955) | Component | ✓ | - | - | ✓ | - | - | - | - | - | Waveform | Causal Transformer voice-activity predictor | 2022.09 |
+| [Gated Multimodal Fusion](https://doi.org/10.1109/ICASSP43922.2022.9746613) | Component | △ | - | - | - | - | ✓ | - | - | - | Audio-visual features | Gated audio-visual turn predictor | 2022.05 |
+| [Response Timing Estimator](https://www.isca-archive.org/interspeech_2022/sakuma22_interspeech.html) | Component | △ | - | - | - | - | - | - | - | - | Dialogue acts | DNN response-timing estimator | 2022.09 |
+| [Natural TT Predictor](https://www.isca-archive.org/interspeech_2022/chang22_interspeech.html) | Component | △ | - | - | - | - | - | - | - | - | Conversational speech | Neural turn-taking predictor (no generator) | 2022.09 |
+| [dGSLM](https://arxiv.org/abs/2203.16502) | Model | △ | - | △ | ✓ | ✓ | - | - | - | ✓ | HuBERT units | HuBERT units + dual-stream Transformer + HiFi-GAN | 2022.03 |
+| [SpeechGPT](https://arxiv.org/abs/2305.11000) | Model | - | - | - | - | ✓ | - | - | - | ✓ | HuBERT units | HuBERT units + LLaMA + Unit HiFi-GAN | 2023.05 |
+| [RealTalk](https://aclanthology.org/2024.acl-long.860/) | System | △ | - | - | - | ✓ | - | - | - | ✓ | Speech features | SSL speech encoder + dialogue Transformer + unit decoder | 2024.08 |
+| [Qwen2-Audio](https://arxiv.org/abs/2407.10759) | Model | - | - | - | - | - | - | - | ✓ | - | Whisper features | Whisper-large-v3 encoder + Qwen-7B | 2024.07 |
+| [Style-Talker](https://arxiv.org/abs/2408.11849) | System | △ | - | - | - | ✓ | - | - | ✓ | - | Audio LM + TTS | Speech encoder + audio LM + style-conditioned TTS | 2024.08 |
+| [EMOVA](https://arxiv.org/abs/2409.18042) | Model | - | - | - | - | ✓ | ✓ | - | - | ✓ | Semantic + acoustic | Semantic-acoustic tokenizer + LLM + style decoder | 2024.09 |
+| [IntrinsicVoice](https://arxiv.org/abs/2409.17353) | Model | △ | - | - | - | ✓ | - | - | - | ✓ | HuBERT units | HuBERT units + LLaMA + GroupFormer decoder | 2024.09 |
+| [Taiwanese Mandarin SLM](https://arxiv.org/abs/2411.07111) | Model | - | - | - | - | ✓ | - | - | - | ✓ | Discrete units | Discrete-unit Transformer LM + unit vocoder | 2024.11 |
+| [LLaMA-Omni](https://arxiv.org/abs/2409.06666) | System | △ | - | - | - | ✓ | - | - | - | ✓ | Whisper + units | Whisper encoder + LLaMA + streaming unit decoder | 2024.09 |
+| [Mini-Omni](https://arxiv.org/abs/2408.16725) | System | △ | - | - | - | ✓ | - | - | - | ✓ | SNAC codec | Whisper encoder + Qwen + SNAC token decoder | 2024.08 |
+| [GLM-4-Voice](https://arxiv.org/abs/2412.02612) | System | ✓ | - | - | - | ✓ | - | - | - | ✓ | Speech tokenizer | Speech tokenizer + GLM-4 + flow-matching decoder | 2024.12 |
+| [Triadic VAP](https://www.isca-archive.org/interspeech_2025/elmers25_interspeech.html) | Component | ✓ | - | - | ✓ | - | - | - | - | - | Multi-party waveform | Causal Transformer triadic VAP predictor | 2025.08 |
+| [OpenOmni](https://arxiv.org/abs/2501.04561) | Model | △ | - | - | - | ✓ | ✓ | - | - | ✓ | Speech tokens | Pretrained speech encoder + LLM + lightweight speech decoder | 2025.01 |
+| [GOAT-SLM](https://arxiv.org/abs/2507.18119) | Model | - | - | - | - | ✓ | - | - | - | ✓ | Speech tokens | Dual semantic/acoustic heads + speech decoder | 2025.07 |
+| [OpenS2S](https://arxiv.org/abs/2507.05177) | Model | - | - | - | - | ✓ | - | - | - | ✓ | Speech tokens | BLSP-Emo + streaming interleaved speech decoder | 2025.07 |
+| [Step-Audio 2](https://arxiv.org/abs/2507.16632) | System | ✓ | - | - | - | ✓ | - | - | - | ✓ | Speech-text tokens | Step-Audio tokenizer + LLM + speech-token decoder | 2025.07 |
+| [InteractiveOmni](https://arxiv.org/abs/2510.13747) | Model | △ | - | - | - | ✓ | ✓ | - | - | ✓ | Audio-visual tokens | Audio-visual encoders + unified Transformer decoder | 2025.10 |
+| [Step-Audio](https://arxiv.org/abs/2502.11946) | System | ✓ | - | - | - | ✓ | - | - | - | ✓ | Speech-text tokens | Step-Audio tokenizer + 130B LLM + speech decoder | 2025.02 |
+| [Baichuan-Audio](https://arxiv.org/abs/2502.17239) | System | ✓ | - | - | - | ✓ | - | - | - | ✓ | Multi-codebook | Speech encoder + Baichuan LLM + multi-codebook decoder | 2025.02 |
+| [Kimi-Audio](https://arxiv.org/abs/2504.18425) | Model | ✓ | - | - | - | ✓ | - | - | - | ✓ | Continuous + tokens | Audio encoder/tokenizer + Kimi LLM + speech decoder | 2025.04 |
+| [Qwen3-Omni](https://arxiv.org/abs/2509.17765) | Model | ✓ | - | - | - | ✓ | ✓ | - | - | ✓ | Continuous + codec | Qwen Thinker + autoregressive Talker decoder | 2025.09 |
+| [PACHAT](https://aclanthology.org/2025.emnlp-main.1492/) | System | △ | - | - | ✓ | ✓ | - | - | ✓ | - | Speech frontend + TTS | Speech frontend + persona-aware LLM + expressive TTS | 2025.11 |
+| [VITA-Audio](https://arxiv.org/abs/2505.03739) | Model | ✓ | - | - | - | ✓ | - | - | - | ✓ | Interleaved tokens | Audio encoder + LLM + interleaved speech-token decoder | 2025.05 |
+| [AV-Dialog](https://arxiv.org/abs/2511.11124) | Model | - | - | - | - | ✓ | ✓ | - | - | ✓ | Audio-visual features | Audio-visual encoders + dialogue Transformer + speech decoder | 2025.11 |
+| [Qwen2.5-Omni](https://arxiv.org/abs/2503.20215) | Model | ✓ | - | - | - | ✓ | ✓ | - | - | ✓ | Continuous + codec | Qwen Thinker + speech-token Talker + vocoder | 2025.03 |
+| [LLaMA-Omni 2](https://arxiv.org/abs/2505.02625) | System | ✓ | - | - | - | ✓ | - | - | - | ✓ | Discrete units | Audio encoder + LLaMA + streaming unit decoder | 2025.05 |
+| [VoxMind](https://aclanthology.org/2026.acl-long.459/) | System | △ | - | - | - | ✓ | - | - | - | ✓ | Speech tokens | Speech tokenizer + agentic dialogue LM + speech decoder | 2026.07 |
+| [ZipVoice-Dialog](https://aclanthology.org/2026.findings-acl.1928/) | Model | △ | - | - | - | ✓ | - | - | - | ✓ | Continuous latent | Flow-matching DiT speech generator | 2026.07 |
+| **Interaction Mode: Half-duplex / Controlled Barge-in** |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| [Incremental TT Model](https://www.isca-archive.org/interspeech_2019/coman19_interspeech.html) | Component | ✓ | - | - | - | - | - | - | - | - | Incremental features | Incremental neural TT predictor (no generator) | 2019.09 |
+| [Listener-aware BC](https://doi.org/10.1109/ICASSP40776.2020.9054344) | Component | △ | - | - | ✓ | - | - | - | - | - | ASR text | Listener-aware neural BC predictor (no generator) | 2020.05 |
+| [BPM_MT](https://aclanthology.org/2021.emnlp-main.277/) | Component | △ | - | - | ✓ | - | - | - | - | - | Speech + text | Multitask neural BC predictor (no generator) | 2021.11 |
+| [Device Directedness](https://arxiv.org/abs/2211.13280) | Component | △ | - | - | - | - | - | - | - | - | Acoustic + context | Acoustic-context directedness classifier | 2022.11 |
+| [Acoustic Barge-in](https://www.isca-archive.org/interspeech_2022/bekal22_interspeech.html) | Component | △ | ✓ | - | - | - | - | - | - | - | Acoustic + context | Contextual acoustic barge-in classifier | 2022.09 |
+| [Freeze-Omni](https://arxiv.org/abs/2411.00774) | System | ✓ | ✓ | △ | △ | ✓ | - | - | - | ✓ | Continuous + units | Speech encoder + frozen LLM + chunkwise unit decoder | 2024.11 |
+| [Mini-Omni2](https://arxiv.org/abs/2410.11190) | System | ✓ | ✓ | △ | △ | ✓ | ✓ | - | - | ✓ | SNAC codec | Whisper encoder + Qwen + SNAC token decoder | 2024.10 |
+| [VITA](https://arxiv.org/abs/2408.05211) | System | ✓ | ✓ | △ | △ | ✓ | ✓ | - | ✓ | - | Encoder + TTS | Audio encoder + LLM + streaming TTS | 2024.08 |
+| [SHANKS](https://arxiv.org/abs/2510.06917) | Add-on | ✓ | △ | △ | - | ✓ | - | - | ✓ | - | Streaming features | Streaming speech encoder + side-path state predictor | 2025.10 |
+| **Interaction Mode: Full-duplex** |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| [Duplex Conversation (Outbound)](https://www.isca-archive.org/interspeech_2021/jin21b_interspeech.html) | System | ✓ | ✓ | ✓ | △ | ✓ | - | ✓ | - | - | ASR / TTS | Streaming ASR + dialogue controller + TTS | 2021.08 |
+| [Duplex Conversation](https://arxiv.org/abs/2205.15060) | System | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | ✓ | - | ASR / TTS | Two-channel interaction model + ASR/TTS | 2022.05 |
+| [Synchronous LLM](https://arxiv.org/abs/2409.15594) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | - | ✓ | Speech units | Dual-channel speech units + synchronous LLaMA | 2024.09 |
+| [Moshi](https://arxiv.org/abs/2410.00037) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | - | ✓ | Mimi codec | Mimi codec + Helium temporal/depth Transformers | 2024.10 |
+| [SALMONN-omni](https://arxiv.org/abs/2411.18138) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | - | ✓ | Continuous embeddings | Speech encoder + codec-free asynchronous speech decoder | 2024.11 |
+| [Full-duplex LLM Scheme](https://arxiv.org/abs/2405.19487) | System | ✓ | ✓ | ✓ | △ | ✓ | - | ✓ | - | - | ASR / LLM / TTS | Streaming ASR + LLM dialogue manager + TTS | 2024.05 |
+| [MinMo](https://arxiv.org/abs/2501.06282) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | ✓ | Speech tokens | Speech encoder/tokenizer + 8B LLM + speech decoder | 2025.01 |
+| [SALM-Duplex](https://arxiv.org/abs/2505.15670) | Model | ✓ | ✓ | ✓ | △ | ✓ | - | - | - | ✓ | Encoder + codec | Streaming speech encoder + LLM + codec decoder | 2025.05 |
+| [OmniFlatten](https://arxiv.org/abs/2410.17799) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | - | ✓ | Speech-text tokens | Flattened speech-text streams + decoder-only Transformer | 2025.07 |
+| [Japanese FD System](https://www.isca-archive.org/interspeech_2025/ohashi25_interspeech.html) | System | ✓ | ✓ | ✓ | △ | ✓ | - | ✓ | - | - | ASR / LLM / TTS | Streaming ASR + LLM dialogue manager + TTS | 2025.08 |
+| [FireRedChat](https://arxiv.org/abs/2509.06502) | System | ✓ | ✓ | ✓ | △ | ✓ | - | ✓ | ✓ | - | ASR / TTS or codec | ASR/TTS cascade or codec-based semi-cascade | 2025.09 |
+| [FD Dialogue + DST](https://aclanthology.org/2025.findings-ijcnlp.49/) | System | ✓ | ✓ | ✓ | △ | ✓ | - | ✓ | ✓ | - | ASR / DST / TTS | Streaming ASR + DST/dialogue manager + TTS | 2025.12 |
+| [Chronological Thinking](https://arxiv.org/abs/2510.05150) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | - | ✓ | Synchronized tokens | Synchronized speech tokens + chronological Transformer | 2025.10 |
+| [LLM-Enhanced FD-DM](https://arxiv.org/abs/2502.14145) | System | ✓ | ✓ | ✓ | △ | ✓ | - | ✓ | - | - | ASR / LLM-DM / TTS | Streaming ASR + LLM-enhanced dialogue manager + TTS | 2025.02 |
+| [LSLM](https://arxiv.org/abs/2408.02622) | Model | ✓ | ✓ | ✓ | △ | ✓ | - | - | - | ✓ | SSL + speech tokens | SSL speech encoder + channel-fusion LLM + token decoder | 2025.02 |
+| [Chroma 1.0](https://arxiv.org/abs/2601.11141) | System | ✓ | ✓ | ✓ | △ | ✓ | - | - | - | ✓ | Speech tokens | Neural codec + real-time dialogue Transformer | 2026.01 |
+| [PersonaPlex](https://arxiv.org/abs/2602.06053) | Model | ✓ | ✓ | ✓ | △ | ✓ | - | - | - | ✓ | Neural codec | Mimi codec + duplex Transformer + voice conditioning | 2026.02 |
+| [MiniCPM-o 4.5](https://arxiv.org/abs/2604.27393) | Model | ✓ | ✓ | ✓ | △ | ✓ | ✓ | - | - | ✓ | Omni-modal stream | Omni encoder + MiniCPM LLM + streaming speech decoder | 2026.04 |
+| [DuplexSLA](https://arxiv.org/abs/2605.20755) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | - | ✓ | Continuous + discrete | Speech encoder + joint language/action LM + codec decoder | 2026.05 |
+| [BayLing-Duplex](https://arxiv.org/abs/2606.14528) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | - | ✓ | Audio tokens | Audio tokenizer + autoregressive duplex LLM + decoder | 2026.06 |
+| [F-Actor](https://aclanthology.org/2026.findings-acl.242/) | Add-on | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | ✓ | - | Control states | Behavior-state controller (uses host speech model) | 2026.07 |
+| [Hierarchical A-S Modeling](https://aclanthology.org/2026.acl-long.419/) | Model | ✓ | ✓ | ✓ | ✓ | ✓ | - | - | - | ✓ | Semantic + acoustic | Hierarchical semantic/acoustic duplex Transformer | 2026.07 |
+| [JoyAI-Talker](https://arxiv.org/abs/2608.01119) | Model | ✓ | ✓ | ✓ | △ | ✓ | - | - | - | ✓ | Semantic + acoustic | Semantic/acoustic tokenizers + dual-level Transformer | 2026.08 |
+| [SoulX-Duplug](https://arxiv.org/abs/2603.14877) | Add-on | ✓ | ✓ | ✓ | △ | ✓ | - | - | ✓ | - | Streaming ASR | Streaming ASR + semantic-state predictor (host TTS) | 2026.03 |
